@@ -1,0 +1,180 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scrollbar-width: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d9d9d9;
+    position: static;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+nav {
+    font-weight: bold;
+    width: 97%;
+    margin: 0 auto;
+}
+.dark-grey-bg {
+    background-color: #3d3d3d;
+    color: #d9d9d9;
+}
+.light-bg {
+    background-color: #d9d9d9;
+    color: #3d3d3d;
+}
+#navbar {
+    padding: 3%;
+}
+.nav-link {
+    border: none;
+}
+.nav-link:hover {
+    border-bottom: solid #3d3d3d;
+    border-width: calc(nav-link);
+}
+.navbar-brand {
+    font-size: 200%;
+}
+img[alt="splash"] {
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.my-name {
+    font-size: 300%;
+}
+.name {
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    right: 3%;
+    margin-top: 15%;
+    margin-right: 10%;
+    text-align: center;
+}
+.name:last-child {
+    font-size: 120%;
+}
+/* work */
+#what-i-can-do {
+    padding: 10% 10% 7%;
+    position: relative;
+    text-align: center;
+}
+#what-i-can-do img {
+    width: 50%;
+}
+.images {
+    text-align: center;
+    width: 45%;
+    display: inline-block;
+}
+.caption {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 15%;
+    line-height: 1.5;
+}
+.caption-head {
+    font-size: 200%;
+}
+.image-caption {
+    line-height: 2;
+}
+/* contact */
+#get-in-touch {
+    padding: 18% 0;
+    position: relative;
+}
+.textbox-head {
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.textbox {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+.textbox:last-child {
+    line-height: 2;
+}
+input[type="submit"] {
+    width: 30%;
+    margin-top: 4%;
+    border: none;
+    border-radius: 1.5rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+input[type="submit"]:hover {
+    border: solid #3d3d3d;
+    background-color: #d9d9d9;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+/* footer */
+#contact {
+    padding-top: 5%;
+    position: relative;
+}
+#contact table {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+#contact table td {
+    width: calc(70%/3);
+}
+#contact p {
+    text-align: center;
+    font-size: 70%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+i {
+    margin-right: 2%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#contact a:hover {
+    color: white;
+}
+@media (max-width: 910px) {
+    img[src$="blackpaint.png"] {
+        width: 80%;
+        margin: 0 10% 5%;
+    }
+    .name {
+        position: static;
+        width: 60%;
+        margin: 0 auto;
+    }
+    input[type="submit"] {
+        padding: 1%;
+        width: 70%;
+    }
+    input[type="submit"] {
+        padding: 4% 3%;
+    }
+    .textbox:last-child {
+        line-height: 1.5;
+    }
+    .hello {
+        margin: 30% auto;
+        line-height: 2;
+        width: 70%;
+    }
+    .images:last-child {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20%;
+    }
+    .images {
+        width: 100%;
+    }
+}
